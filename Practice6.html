@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<style>
+		.form-input{text-align: left; color: black;}
+		body{ margin: 100px;
+			padding: 6px;
+			border: 4px solid blue;
+			background-image: url("Enterprise Insurance Logo.JPG");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: right bottom;
+			background-size: 300px 100px;
+		 }
+		 h1{ background-color: lightblue;
+		 	text-align: center;
+
+		  }
+		form{ background-color: lightblue;
+			opacity: 1.5;
+			font-size: 20px;
+			font-weight: bold;
+
+		}	
+	</style>
+</head>
+<body>
+	<!--<h1><mark>SIGN UP</mark></h1>-->
+	<h1>PERSONAL ACCIDENT INSURANCE INFORMATION TEMPLATE - INSURER : ENTERPRISE INSURANCE</h1>
+	<form>
+		<div class="form-input">
+			<strong><label>Full Name</label></strong>
+			<br>
+			<input type="text" name="full_name">
+		</div>
+		
+		<div class="form-input">
+			<label>Age</label>
+			<br>
+			<input type="number" name="age">
+		</div>
+
+		<div class="form-input">
+			<label>Password</label>
+			<br>
+			<input type="Password" name="Password">
+		</div>
+
+		<div class="form-input">
+			<label>Gender</label>
+			<br>
+			<label>Male</label>
+			<input type="radio" name="gender" value="male" checked>
+			<label>Female</label>
+			<input type="radio" name="gender" value="female">
+			<label>Custom</label>
+			<input type="radio" name="gender" value="custom">
+		</div>
+
+		<div class="form-input">
+			<input type="submit" name="submit">
+		</div>
+
+	</form>
+</body>
+</html>
